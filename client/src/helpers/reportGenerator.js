@@ -1,4 +1,4 @@
-const dashboardReports = async (tweetData, loginData) => {    
+const dashboardReports = (tweetData, loginData) => {    
     let users = []
     let events = []
     let tweetIds = []
@@ -46,6 +46,7 @@ const dashboardReports = async (tweetData, loginData) => {
             }
         }
     }
+
     let maxReplies = Math.max.apply(0, replies);
     let mostIntrestingTweet = tweetContents[replies.indexOf(maxReplies)];
 

@@ -30,7 +30,7 @@ class HeaderDateDecorator extends EventDateDecorator {
     }
 }
 
-const loginDateFormatter = async(loginData) => {
+const loginDateFormatter = (loginData) => {
     for(let login of loginData) {
         let date = new EventDate(login.createdAt);
         let formattedDate = new TimestampEventDateDecorator(date);
@@ -39,7 +39,7 @@ const loginDateFormatter = async(loginData) => {
     return loginData
 };
 
-const tweetDateFormatter = async(tweetData) => {
+const tweetDateFormatter = (tweetData) => {
     for(let tweet of tweetData) {
         let date = new EventDate(tweet.createdAt);
         let formattedDate = new TimestampEventDateDecorator(date);
@@ -55,7 +55,7 @@ const tweetDateFormatter = async(tweetData) => {
     return tweetData
 };
 
-const headerDateFormater = async(date) => {
+const headerDateFormater = (date) => {
     let eventDate = new EventDate(date);
     let formattedDate = new HeaderDateDecorator(eventDate);
     return {"date": formattedDate.getDate()}
