@@ -53,10 +53,10 @@ https://github.com/MarcelaBrjs/Twitter-Reloaded-and-Event-Dashboard/blob/5c9a630
 #### User Builder
 https://github.com/MarcelaBrjs/Twitter-Reloaded-and-Event-Dashboard/blob/5c9a630459bd9f01106b5e257b585020c8a8b307/api/src/entities/user.js#L1-L57
 
-![My Image](designPatternsDiagrams/builder.png)
+![My Image](/designPatternsDiagrams/builder.png)
 
 ### Decorator Pattern
 
 https://github.com/MarcelaBrjs/Twitter-Reloaded-and-Event-Dashboard/blob/5c9a630459bd9f01106b5e257b585020c8a8b307/client/src/helpers/dateFormatter.js#L1-L31
 
-![My Image](designPatternsDiagrams/decorator.png)
+![My Image](/designPatternsDiagrams/decorator.png)
