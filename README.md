@@ -37,4 +37,8 @@ Final project for the course "TC3049. Software Design and Architecture", centere
 
 ### Builder Pattern
 
+![My Image](designPatternsDiagrams/builder.jpg)
+
 ### Decorator Pattern
+
+![My Image](designPatternsDiagrams/decorator.jpg)
